@@ -1,0 +1,21 @@
+<main class="centered-layout">
+  <form class="card flex flex-col gap" action="/lookbook/home/index" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="517cfiSOdy6QhGciId75D9aTq417b6j5z-TK3oZGK7PAZq_TA-d0Y06e8p_MBZXbaN6gF6JN0H-Pc-sM9R3gpQ" autocomplete="off" />
+    <div class="flex flex-col">
+      <h3 class="font-semibold leading-none mbe-1">Login</h3>
+      <p class="text-sm text-subtle">Enter your email below to login to your account.</p>
+    </div>
+    <div class="flex flex-col gap mb-2">
+      <div class="flex flex-col gap-half">
+        <label class="text-sm font-medium leading-none" for="email">Email</label>
+        <input placeholder="m@example.com" class="input" type="email" name="email" id="email" />
+      </div>
+      <div class="flex flex-col gap-half">
+        <label class="text-sm font-medium leading-none" for="password">Password</label>
+        <input class="input" type="password" name="password" id="password" />
+      </div>
+    </div>
+    <div class="flex items-center">
+      <input type="submit" name="commit" value="Sign in" class="btn btn--primary i-full" data-disable-with="Sign in" />
+    </div>
+  </form>
+</main>
